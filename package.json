@@ -4,7 +4,7 @@
   "license": "MIT",
   "description": "An enterprise-class UI components based on Ant Design and Angular",
   "engines": {
-    "node": "^12.20.0 || ^14.15.0 || >=16.10.0"
+    "node": ">=14.0.0 <17.0.0"
   },
   "scripts": {
     "start": "gulp start:dev",
@@ -25,22 +25,22 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@angular/cdk": "^13.0.1",
+    "@angular/cdk": "^14.0.3",
     "@ant-design/icons-angular": "^13.1.0",
     "@ctrl/tinycolor": "^3.4.1",
     "date-fns": "^2.16.1",
     "ngx-hover-preload": "0.0.3"
   },
   "devDependencies": {
-    "@angular-builders/custom-webpack": "^13.0.0",
+    "@angular-builders/custom-webpack": "^14.0.0",
     "@angular-devkit/build-angular": "^14.0.3",
     "@angular-devkit/core": "^14.0.3",
     "@angular-devkit/schematics": "^14.0.3",
-    "@angular-eslint/builder": "^13.0.1",
-    "@angular-eslint/eslint-plugin": "^13.0.1",
-    "@angular-eslint/eslint-plugin-template": "^13.0.1",
-    "@angular-eslint/schematics": "^13.0.1",
-    "@angular-eslint/template-parser": "^13.0.1",
+    "@angular-eslint/builder": "^14.0.2",
+    "@angular-eslint/eslint-plugin": "^14.0.2",
+    "@angular-eslint/eslint-plugin-template": "^14.0.2",
+    "@angular-eslint/schematics": "^14.0.2",
+    "@angular-eslint/template-parser": "^14.0.2",
     "@angular/animations": "^14.0.3",
     "@angular/cli": "^14.0.3",
     "@angular/common": "^14.0.3",
@@ -57,9 +57,9 @@
     "@ant-design/dark-theme": "^2.0.2",
     "@commitlint/cli": "^13.0.0",
     "@commitlint/config-angular": "^13.0.0",
-    "@nguniversal/builders": "^13.0.1",
-    "@nguniversal/express-engine": "^13.0.1",
-    "@schematics/angular": "^13.0.2",
+    "@nguniversal/builders": "^14.0.3",
+    "@nguniversal/express-engine": "^14.0.3",
+    "@schematics/angular": "^14.0.0",
     "@stackblitz/sdk": "^1.5.2",
     "@types/d3": "^6.2.0",
     "@types/fs-extra": "^9.0.5",
@@ -133,6 +133,7 @@
     "rxjs": "~6.6.3",
     "shelljs": "^0.8.4",
     "sitemap": "^4.1.1",
+    "style-loader": "^3.3.1",
     "terser": "^5.5.1",
     "ts-node": "~10.8.1",
     "tslib": "^2.0.3",
