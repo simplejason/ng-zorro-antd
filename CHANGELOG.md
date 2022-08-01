@@ -1,3 +1,17 @@
+# [14.0.0-beta.0](https://github.com/NG-ZORRO/ng-zorro-antd/compare/13.4.0...14.0.0-beta.0) (2022-08-01)
+
+
+### Bug Fixes
+
+* **icon:** add missing nz-icon attribute ([f73e5b3](https://github.com/NG-ZORRO/ng-zorro-antd/commit/f73e5b37a57228481f0b8f70073ba5cd90e93e36))
+
+
+### Features
+
+* **icon:** change tag of nz-icon from <i> to <span> ([#7586](https://github.com/NG-ZORRO/ng-zorro-antd/issues/7586)) ([7242111](https://github.com/NG-ZORRO/ng-zorro-antd/commit/7242111c8bc2523df9d13e19521473502a4f6cf1))
+
+
+
 # [13.4.0](https://github.com/NG-ZORRO/ng-zorro-antd/compare/13.3.2...13.4.0) (2022-07-25)
 
 
