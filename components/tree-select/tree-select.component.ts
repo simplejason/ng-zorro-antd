@@ -407,7 +407,6 @@ export class NzTreeSelectComponent extends NzTreeBase implements ControlValueAcc
   }
 
   setDisabledState(isDisabled: boolean): void {
-    console.log(this.nzDisabled);
     this.nzDisabled = (this.isNzDisableFirstChange && this.nzDisabled) || isDisabled;
     this.closeDropDown();
     this.isNzDisableFirstChange = false;
