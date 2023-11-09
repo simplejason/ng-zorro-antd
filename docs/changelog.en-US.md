@@ -13,6 +13,15 @@ timeline: true
 * Major version release is not included in this schedule for breaking change and new features.
 
 ---
+## 17.0.0-beta.0
+
+`2023-11-09`
+
+### Bug Fixes
+
+* **form:** wrong element to focus when clicking label ([#8135](https://github.com/NG-ZORRO/ng-zorro-antd/issues/8135)) ([b3d135f](https://github.com/NG-ZORRO/ng-zorro-antd/commit/b3d135fc512a016430426a36330c0f527234f4e4))
+
+
 ## 16.2.2
 
 `2023-10-23`
