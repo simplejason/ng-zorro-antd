@@ -11,6 +11,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "baseHref": "/version/17.4.x/",
             "outputPath": "dist",
             "index": "site/doc/index.html",
             "browser": "site/doc/main.ts",
